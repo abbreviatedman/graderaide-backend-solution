@@ -52,7 +52,6 @@ const Student = (name, course, term = 1) => {
         }
       }
 
-      console.log(foundCourse);
       let sum = 0;
       const grades = foundCourse.terms[termIndex].grades;
       for (const grade of grades) {
